@@ -1,0 +1,52 @@
+body{
+   margin: 0;
+    padding: 0;
+    height: 100%;
+    background-image: url(jardin.png);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+iframe{
+    position:absolute;
+    border:none;
+   /* height: 100%;*/
+    width: 70vw ;/*largeur du frame*/
+ 
+    
+}
+
+#chateau{
+  position:absolute;
+    bottom:0vb; /*Ici on ajuste la position du chateau par rapport au bas de la page*/
+    left: 15vw; /*Ici c'est la distence par rapport au bord gauche*/
+    height: 80%; /*taille du chateau*/
+
+    
+}
+    
+
+#chateau iframe{
+
+    height: 33%;
+    border: none;
+}
+
+#frame1{
+    bottom:65%;
+   left: -0.4vw;
+    
+    
+}
+
+#frame2{
+   
+    bottom:32%;
+}
+
+#frame3{
+
+    bottom: 0%;
+}
